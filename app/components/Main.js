@@ -1,10 +1,11 @@
-var Home = (props) => {
+import React from 'react'
+
+const Main = (props) => {
   return (
-    <div>
-      Hello from Home!
+    <div className="main-container">
       {props.children}
     </div>
   )
 };
 
-export default Home;
+export default Main;
