@@ -1,6 +1,7 @@
 import React from 'react'
 import { PropTypes }  from 'react'
 import styles from '../styles'
+import MainContainer from '../components/MainContainer'
 
 const Prompt = (props) => {
   return (
